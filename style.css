@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(4, 115, 194);
+    color: white;
+}
+
+#hero-left{
+    flex-grow: 1;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+#hero-left > *{
+    padding: 10px;
+}
+#hero-right{
+    display: flex;
+    font-weight: 700;
+    color: rgb(78, 166, 229);
+    margin-top: 6px;
+}
+#hero-right > *{
+    padding: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-selected{
+    border-bottom: 5px solid white;
+    color: white;
+}
+#options-nav{
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700;
+    color: rgb(78, 166, 229);
+    font-size: 17px !important;
+}
+#bio-section{
+    background-color: rgb(63, 164, 244);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(49, 152, 236);
+}
+.highlight-text{
+    color: rgb(45, 139, 199);
+}
+#hire-btn{
+    padding: 12px 15px;
+    color: white;
+    background-color: rgb(50, 132, 196);
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#skills-section{
+    background-color: rgb(247, 248, 250);
+    display: flex;
+    flex-direction: column;
+}
+#skills-para{
+    padding: 20px 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 170, 224);
+    font-weight: 700;
+}
+#skills-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#skills-list-1{
+    background-color: white;
+    box-shadow: 1px 10px 10px rgb(228, 221, 221);
+    padding: 20px;  
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#skills-list-2{
+    background-color: white;
+    box-shadow: 1px 10px 10px rgb(228, 221, 221);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#skills-list-3{
+    background-color: white;
+    box-shadow: 1px 10px 10px rgb(228, 221, 221);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.skills-list-content > :first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.skills-list-content{
+    display: flex;
+}
+.icofont-tick-mark{
+    color: rgb(61, 170, 224);
+}
+.skills-list-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-list-header > :first-child{
+    padding: 50px;
+    background-color: rgb(65, 163, 248);
+    border-radius: 50%;
+    margin-top: -80px;
+    color: white;
+    font-size: 50px;
+}
+footer{
+    height: 60px;
+}
